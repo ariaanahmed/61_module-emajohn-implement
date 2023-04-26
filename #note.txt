@@ -11,3 +11,34 @@
 61-6 Create Private Route or Require Auth and Navigate home
 
 61-7 After Login Redirect Navigate to the right route
+
+61-8 Host your react app to firebase and Show password
+
+a. one time for per pc
+
+https://console.firebase.google.com/project/ema-john-with-firebase-a-84d55/hosting/sites
+
+i. npm install -g firebase-tools
+ii. firebase login
+
+for each project one time
+i. firebase init
+ii. Hosting: Configure files for Firebase Hosting and (optionally) set up GitHub Action deploys - press space bar to select
+
+iii. existing project
+iv. select the project (carefully)
+v. which project as public directory: vite er jonno 'dist' ebong react app er jonno 'build'
+
+vi. Configure as a single-page app (rewrite all urls to /index.html)? (y/N)
+ans: y
+
+vii. Set up automatic builds and deploys with GitHub?
+ans: n
+
+
+-------------------------
+  for every time deploy
+-------------------------
+
+i. npm run build
+ii. firebase deploy
