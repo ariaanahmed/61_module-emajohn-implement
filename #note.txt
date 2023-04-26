@@ -1,0 +1,13 @@
+61-1 Module Introduction firebase setup and git clone
+
+61-2 Create Login component and style Login form
+
+61-3 Setup Auth Context under UserContext to share auth info
+
+61-4 Implement create user and Sign in user and Sign Out
+
+61-5 Understand onAuthState Changed observer
+
+61-6 Create Private Route or Require Auth and Navigate home
+
+61-7 After Login Redirect Navigate to the right route

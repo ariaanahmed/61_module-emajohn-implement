@@ -1,0 +1,43 @@
+.form-container{
+    width: 200px !important;
+    height: 400px;
+    margin: 50px auto;
+    border: 1px solid #95A0A7 !important;
+    border-radius: 8px;
+    padding: 0 10px !important;
+}
+
+.form-title{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    text-align: center;
+    color: #2A414F;
+}
+
+.form-control{
+    margin-bottom: 20px;
+}
+
+.form-control label{
+    display: block;
+    font-size: 17px;
+    color: #2A414F;
+}
+
+.form-control input {
+    margin: 0 auto;
+    height: 30px;
+    border: 1px solid #95A0A7;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+
+.btn-submit {
+    background-color: rgba(255, 153, 0, 0.3);
+    border: 1px solid gray;
+    padding: 5px 20px;
+    border-radius: 3px;
+    text-transform: capitalize;
+}
